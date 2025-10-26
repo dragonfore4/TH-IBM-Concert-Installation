@@ -1,0 +1,76 @@
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Editor directories and files
+.vscode/
+.idea/
+*.iml
+
+# Shell / terminal
+.fish_history
+
+# SSH / keys / certs
+*.pem
+*.key
+*.crt
+*.csr
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pyd
+*.egg-info/
+dist/
+build/
+venv/
+.venv/
+env/
+ENV/
+pip-wheel-metadata/
+.pytest_cache/
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-error.log
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+
+# Terraform
+.terraform/
+terraform.tfstate
+terraform.tfstate.backup
+*.tfvars
+*.tfvars.json
+.terraform.lock.hcl
+crash.log
+
+# Ansible
+*.retry
+group_vars/*_secrets.yml
+host_vars/*_secrets.yml
+
+# Logs and runtime files
+*.log
+*.pid
+*.seed
+*.sqlite3
+
+# Images and generated assets (uncomment if you generate images locally)
+# images/
+
+# Misc
+*.swp
+*.swo
+*.tmp
+*.bak
+
+# If any secret files are intentionally tracked, remove these patterns or
+# keep them here but make sure sensitive files are not already committed.

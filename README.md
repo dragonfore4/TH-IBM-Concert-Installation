@@ -99,11 +99,11 @@ also remember **Public IP**, **Root password** we will use it again in following
 ![vm reservation details](/images/14.png)
 
 We need to modify the key permission
-> `chmod 600 <your_key_path>/pem_ibmcloudvsi_download.pem`
+`chmod 600 <your_key_path>/pem_ibmcloudvsi_download.pem`
 
 in my case it will be
 
-`chmod 600 ./pem_ibmcloudvsi_download.pem`
+> `chmod 600 ./pem_ibmcloudvsi_download.pem`
 
 2 Access to your VM instance
 
